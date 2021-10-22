@@ -12,6 +12,4 @@ __new__/
 *.exe
 *.lnk
 
-test.*
-
 .DS_Store

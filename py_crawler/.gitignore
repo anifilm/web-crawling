@@ -1,0 +1,12 @@
+!.vscode/
+.ipynb_checkpoints/
+__pycache__/
+
+# for venv
+venv/
+!pyvenv.cfg
+
+.env
+*.pdf
+
+tesy.py
