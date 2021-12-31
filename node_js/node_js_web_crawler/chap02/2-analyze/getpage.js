@@ -9,9 +9,6 @@ client.fetch(url, param, function (err, $, res) {
     return;
   }
 
-  $('a').each(function (idx) {
-    const text = $(this).text();
-    const href = $(this).attr('href');
-    console.log(text + ': ' + url + href);
-  });
+  const body = $.html();
+  console.log(body);
 });
