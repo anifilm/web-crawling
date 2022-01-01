@@ -7,8 +7,16 @@ out/
 target/
 __using_assets__/
 __new__/
+
+.ipynb_checkpoints/
+.pytest_cache
+__pycache__/
+
 .env
 *.exe
 *.lnk
+*.pdf
+
+test.*
 
 .DS_Store
