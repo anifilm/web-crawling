@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 options = webdriver.ChromeOptions()
 options.add_argument('window-size=1920,1080')
 
-driver = webdriver.Chrome('chromedriver.exe')
+driver = webdriver.Chrome()
 driver.implicitly_wait(3)
 
 driver.get('https://namu.wiki/RecentChanges')
